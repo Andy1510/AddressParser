@@ -66,4 +66,9 @@ Identifies and parses a Vietnamese address string into country, house number, st
 
 ### Data sources:
 - Municipal Data: https://github.com/ThangLeQuoc/vietnamese-provinces-database/blob/master/json/simplified_json_generated_data_vn_units.json
-The data was subsequently cleaned and transformed by converting to uppercase and removing diacritics as well as leading zeroes for numerical municipal values 
+
+Municipal data was cleaned and transformed by converting to uppercase and removing diacritics as well as leading zeroes for numerical municipal values 
+
+- Street Data: https://github.com/thien0291/vietnam_dataset/tree/master/data
+
+Street data was cleaned and concatenated into a json
