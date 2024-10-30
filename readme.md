@@ -63,3 +63,7 @@ Identifies and parses a Vietnamese address string into country, house number, st
 - Parsing addresses with spelling errors will take significantly more time than addresses without.
 - Will not parse house numbers for apartment addresses, as it cannot distinguish between the house number of the complex and the unit number.
 - In case of invalid addresses like *Quận 3, Hà Nội* (there is no *Quận 3* in *Hà Nội*) the parser will return the most probable parse instead of outright saying the address is invalid
+
+### Data sources:
+- Municipal Data: https://github.com/ThangLeQuoc/vietnamese-provinces-database/blob/master/json/simplified_json_generated_data_vn_units.json
+The data was subsequently cleaned and transformed by converting to uppercase and removing diacritics as well as leading zeroes for numerical municipal values 
